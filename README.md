@@ -1,9 +1,9 @@
 # Depth_Camera
 
-__MPU__: Raspberry Pi 5 (Broadcom BCM2712 Quad-core Cortex-A76 (2.4GHz))
-<br />
-__카메라__: OV5647 x 2 
-<br />
+**MPU**: Raspberry Pi 5 (Broadcom BCM2712 Quad-core Cortex-A76 (2.4GHz))
+
+**카메라**: OV5647 x 2
+
 - 초점 거리(f): 3.51mm
 - 시야각(Alpha): 54도
 - 카메라 간 거리(Baseline): 5.5cm
@@ -41,6 +41,7 @@ _________
 - 카메라를 통해 깊이 추정 수행, 손의 (x픽셀 평균 좌표, y픽셀 평균 좌표, depth) 구한 후 UART를 통해 송신
 - BaudRate: 115200
 
+
 _________
 ### 디렉터리 구조
 
@@ -64,6 +65,7 @@ _________
 ```
 _________
 ### 아키텍처/회로
+**Robot_Arm** : [GitHub 링크](https://github.com/SyncArm/Robot-Arm)
 ![image](https://github.com/user-attachments/assets/aec00e42-ab18-48f1-97a4-01285fe98365)
 ![image](https://github.com/user-attachments/assets/f158f253-86dd-4451-951b-64f692c40e9e)
 _________
